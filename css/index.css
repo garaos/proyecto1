@@ -1,0 +1,33 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-image: url(/img/background/bg-jumbotron.jpg);
+
+    min-height: 100vh; /* minimo tendra 100, pero si el contenido es mas grande crecera lo suficiente*/
+
+
+}
+.header button {
+    color: #ffffff;
+    border-color: #c2c2c2;
+}
+
+.logom {
+    margin: 5px;
+    align-self: center;
+    width: 50%;
+}
+
+.carousel-item img {
+object-fit:cover;
+object-position: center;
+height: 80vh;
+overflow: hidden;
+
+}
+
+.rayano  a{
+text-decoration: none;
+}

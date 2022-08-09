@@ -19,6 +19,10 @@
     align-self: center;
     width: 50%;
 }
+.card-footer {
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
 
 .carousel-item img {
 object-fit:cover;

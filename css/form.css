@@ -1,0 +1,13 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-image: url(/img/background/bg-jumbotron.jpg);
+
+    min-height: 100vh; /* minimo tendra 100, pero si el contenido es mas grande crecera lo suficiente*/
+}
+
+.rayano  a{
+    text-decoration: none;
+    }

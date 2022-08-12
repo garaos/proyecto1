@@ -4,10 +4,32 @@
 
 .header {
     background-image: url(/img/background/bg-jumbotron.jpg);
-
-    min-height: 100vh; /* minimo tendra 100, pero si el contenido es mas grande crecera lo suficiente*/
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
 }
 
-.rayano  a{
+.header div:hover ul li a {
+    color: rgb(0, 0, 0) !important;
+}
+
+/*CSS Footer*/
+.rayano a {
     text-decoration: none;
-    }
+}
+
+.footercolor {
+    background-color: #a5afc6;
+}
+
+.colorfb {
+    color: #3b5998;
+}
+
+.colortw {
+    color: #4a78f6;
+}
+
+.colorig {
+    color: #ac2bac;
+}

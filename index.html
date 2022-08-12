@@ -18,47 +18,51 @@
 <body>
     <header class="header">
         <!--NAV BAR-->
-        <nav class="navbar navbar-expand-lg bg-transparent">
-            <div class="container-fluid">
-                <a class="navbar-brand fw-bold" href="/index.html"><i class="fa-solid fa-skull"></i> Dragon Shield</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-black-50 fw-bold" aria-current="page" href="#">Bicicletas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-black-50 fw-bold" href="#">Accesorios</a>
-                        </li>
-                        <li class="nav-item">
-                            <form action="/form.html">
-                                <button class="btn btn-outline-secondary text-black-50 fw-bold" type="submit">Iniciar Sesión</button>
-                            </form>
-                        </li>
-                    </ul>
-                    <form class="d-flex px-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
-                        <button class="btn btn-outline-secondary" type="submit"><i
-                                class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>
+        <section>
+            <nav class="navbar navbar-expand-lg bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="/index.html"><i class="fa-solid fa-skull"></i> Dragon
+                        Shield</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-black-50 fw-bold" aria-current="page"
+                                    href="#bicicletas">Bicicletas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-black-50 fw-bold" href="#accesorios">Accesorios</a>
+                            </li>
+                            <li class="nav-item">
+                                <form action="/form.html">
+                                    <button class="btn text-black-50 fw-bold" type="submit">Iniciar Sesión</button>
+                                </form>
+                            </li>
+                        </ul>
+                        <form class="d-flex px-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+                            <button class="btn text-black-50 border-0" type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </section>
         <!--Jumbotron-->
         <div class="row">
             <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                <div class="container-fluid py-5 mt-5 text-black-50 px-3">
+                <div class="container-fluid py-5 mt-5 text-black-50 px-3 ">
                     <h1 class="display-5 fw-bold">Casual y Técnico</h1>
                     <p class="col-md-8 fs-4">Una bicicleta para cada momento de tu día</p>
                     <hr class="my-4">
                     <p>Descubre más, escribenos <i class="fa-solid fa-skull"></i></p>
                     <div class="d-flex">
                         <input class="form-control p-2 w-50" type="email" placeholder="email">
-                        <button class="btn btn-outline-secondary p-2 text-black fw-bold mx-1">Enviar</button>
+                        <button class="btn p-2 text-black-50 fw-bold mx-1 btncolor">Enviar</button>
                     </div>
                 </div>
             </div>
@@ -67,10 +71,10 @@
     <!--Catalogo-->
     <div>
         <!--Bicicletas-->
-        <h1 class="text-center fw-bold pt-5">Bicicletas</h1>
+        <h1 class="text-center fw-bold pt-5" id="bicicletas">Bicicletas</h1>
         <div class=" container text-center pt-5">
             <div class="row">
-                <div class="col d-flex justify-content-center pb-1">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center pb-1 mb-3">
                     <div class="card" style="width: 18rem;">
                         <img class="logom" src="/img/catalogo/logo_marcas/kona.png" alt="">
                         <img src="/img/catalogo/bicicletas/bk01.jpg" class="card-img-top" alt="Process 153 29">
@@ -84,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-center pb-1">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center pb-1 mb-3">
                     <div class="card" style="width: 18rem;">
                         <img class="logom" src="/img/catalogo/logo_marcas/yt-industries-logo.png" alt="">
                         <img src="/img/catalogo/bicicletas/bk02.png" class="card-img-top" alt="Tues Pro Race 29">
@@ -98,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-center pb-1">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center pb-1 mb-3">
                     <div class="card" style="width: 18rem;">
                         <img class="logom" src="/img/catalogo/logo_marcas/Polygon.png" alt="">
                         <img src="/img/catalogo/bicicletas/bk03.png" class="card-img-top" alt="SISKIU N9">
@@ -111,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-center pb-1">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center pb-1 mb-3">
                     <div class="card" style="width: 18rem;">
                         <img class="logom" src="/img/catalogo/logo_marcas/Commencal.png" alt="">
                         <img src="/img/catalogo/bicicletas/bk04_Commencal_SUPOH.jpg" class="card-img-top"
@@ -129,14 +133,15 @@
         </div>
         <hr class="w-100 clearfix d-md-none" />
         <!-- Accesorios-->
-        <h1 class="text-center fw-bold pt-5">Accesorios</h1>
+        <h1 class="text-center fw-bold pt-5" id="accesorios">Accesorios</h1>
         <div class=" container text-center pt-5">
             <div class="row">
-                <div class="col d-flex justify-content-center pb-1">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center pb-1 mb-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="" class="card-img-top" alt="">
+                        <img class="logom" src="/img/catalogo/logo_marcas/logo-troy-lee-designs-.jpg" alt="">
+                        <img src="/img/catalogo/accesorios/TLD_helmet.jpg" class="card-img-top" alt="">
                         <div class="card-body">
-                            <p class="card-text"></p>
+                            <p class="card-text">Un estilo limpio y máxima funcionalidad</p>
                         </div>
                         <div class="card-footer">
                             <a href="#" class="btn btn-outline-secondary text-black" role="button"
@@ -144,12 +149,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-center pb-1">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center pb-1 mb-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="" class="card-img-top" alt="">
+                        <img class="logom" src="/img/catalogo/logo_marcas/logo-e13.png" alt="">
+                        <img src="/img/catalogo/accesorios/02e13-chainguide.png" class="card-img-top" alt="">
                         <div class="card-body">
-                            <p class="card-text">
-                            </p>
+                            <p class="card-text"> Lo último en retencion de cadena</p>
                         </div>
                         <div class="card-footer">
                             <a href="#" class="btn btn-outline-secondary text-black" role="button"
@@ -157,11 +162,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-center pb-1">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center pb-1 mb-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="" class="card-img-top" alt="">
+                        <img class="logom" src="/img/catalogo/logo_marcas/logo-CK.png" alt="">
+                        <img src="/img/catalogo/accesorios/03DropSet-Matte-Turquoise.png" class="card-img-top" alt="">
                         <div class="card-body">
-                            <p class="card-text"></p>
+                            <p class="card-text">You Want It</p>
                         </div>
                         <div class="card-footer">
                             <a href="#" class="btn btn-outline-secondary text-black" role="button"
@@ -169,11 +175,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-center pb-1">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center pb-1 mb-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="" class="card-img-top" alt="">
+                        <img class="logom" src="/img/catalogo/logo_marcas/logo-Chromag.png" alt="">
+                        <img src="/img/catalogo/accesorios/04juniper-cyan.png" class="card-img-top" alt="">
                         <div class="card-body">
-                            <p class="card-text"></p>
+                            <p class="card-text">El sillin más cómodo</p>
+                        </div>
+                        <div class="card-footer">
                             <a href="#" class="btn btn-outline-secondary text-black" role="button"
                                 aria-pressed="true">Ver Más</a>
                         </div>
@@ -183,7 +192,7 @@
         </div>
     </div>
     <!--historias-->
-    <div id="carouselExampleCaptions" class="carousel slide pt-5" data-bs-ride="false">
+    <div id="carouselExampleCaptions" class="carousel slide pt-4" data-bs-ride="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -199,9 +208,9 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="/img/Historias/hist001 (1).jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                <div class="carousel-caption bg-dark bg-opacity-25">
+                    <h5>Whistler</h5>
+                    <p>Un día por sus pistas</p>
                     <form action="#!">
                         <button class="btn border-white p-2 text-white mx-1">Ver Más</button>
                     </form>
@@ -210,9 +219,9 @@
             <div class="carousel-item">
                 <img src="/img/Historias/hist001 (8).jpg" class="d-block w-100" alt="...">
 
-                <div class="carousel-caption">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                <div class="carousel-caption bg-dark bg-opacity-25">
+                    <h5>La Barranca</h5>
+                    <p>Verano es España</p>
                     <form action="#!">
                         <button class="btn border-white p-2 text-white mx-1">Ver Más</button>
                     </form>
@@ -220,9 +229,9 @@
             </div>
             <div class="carousel-item">
                 <img src="/img/Historias/hist001 (4).jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                <div class="carousel-caption bg-dark bg-opacity-25">
+                    <h5>Portes du Soleil</h5>
+                    <p>Un sueño Franco Suizo</p>
                     <form action="#!">
                         <button class="btn border-white p-2 text-white mx-1">Ver Más</button>
                     </form>
@@ -230,9 +239,9 @@
             </div>
             <div class="carousel-item">
                 <img src="/img/Historias/hist001 (6).jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                <div class="carousel-caption bg-dark bg-opacity-25">
+                    <h5>Nevados de Chillan</h5>
+                    <p>Por que no todo son longanizas</p>
                     <form action="#!">
                         <button class="btn border-white p-2 text-white mx-1">Ver Más</button>
                     </form>
@@ -240,9 +249,10 @@
             </div>
             <div class="carousel-item">
                 <img src="/img/Historias/hist001 (7).jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+
+                <div class="carousel-caption bg-dark bg-opacity-25">
+                    <h5>Fails!</h5>
+                    <p>Sección con los ultimos fails, tu sabes que significa</p>
                     <form action="#!">
                         <button class="btn border-white p-2 text-white mx-1">Ver Más</button>
                     </form>
@@ -261,7 +271,7 @@
         </button>
     </div>
     <!--Footer-->
-    <footer class="text-center text-md-start text-white" style="background-color: #a5afc6">
+    <footer class="text-center text-md-start text-white footercolor">
         <div class="container p-4 pb-3 pb-lg-1">
             <div>
                 <div class="row rayano">
@@ -294,13 +304,13 @@
                     <div class="col-md-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 fw-bold">Siguenos</h6>
                         <!--Facebook-->
-                        <a class="m-1" style="color: #3b5998" href="https://www.facebook.com" role="button"
+                        <a class="m-1 colorfb"  href="https://www.facebook.com" role="button"
                             target="_blank"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
                         <!--Twitter-->
-                        <a class="m-1" style="color: #4a78f6" href="https://twitter.com" role="button"
+                        <a class="m-1 colortw"  href="https://twitter.com" role="button"
                             target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
                         <!--Instagram-->
-                        <a class="m-1" style="color: #ac2bac" href="https://www.instagram.com" role="button"
+                        <a class="m-1 colorig"  href="https://www.instagram.com" role="button"
                             target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
                     </div>
                 </div>

@@ -3,35 +3,79 @@
 }
 
 .header {
-    background-image: url(/img/background/bg-jumbotron.jpg);
-
+    background-image: url(/img/background/bg-jumbotron-index.jpg);
     min-height: 100vh; /* minimo tendra 100, pero si el contenido es mas grande crecera lo suficiente*/
-
-
+    background-position: center;
+    background-size:cover ;
 }
+
+.header section {
+    transition: 0.5s all;
+}
+
+.header section:hover ul li a {
+    color: rgb(0, 0, 0) !important;
+}
+
+.header section:hover {
+    background-color: rgba(0, 0, 0, 0.168);
+}
+
 .header button {
-    color: #ffffff;
-    border-color: #c2c2c2;
+    border-color: #adb5bd;
+    
+}
+.header section:hover form button i{
+    color: #000000;
+}
+.header section:hover ul li form button {
+    color: rgb(0, 0, 0) !important;
 }
 
+.btncolor:hover {
+    color: #000000 !important;
+}
+
+/*Tarjetas Catalogo*/
 .logom {
-    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
     align-self: center;
     width: 50%;
 }
+
 .card-footer {
     background-color: rgb(255, 255, 255);
     border: none;
 }
 
+/* Carrusel*/
 .carousel-item img {
-object-fit:cover;
-object-position: center;
-height: 80vh;
-overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    height: 80vh;
+    overflow: hidden;
 
 }
 
-.rayano  a{
-text-decoration: none;
+/*CSS Footer*/
+.rayano a {
+    text-decoration: none;
+}
+
+.footercolor {
+    background-color: #a5afc6;
+}
+
+.colorfb {
+    color: #3b5998;
+}
+
+.colortw {
+    color: #4a78f6;
+}
+
+.colorig {
+    color: #ac2bac;
 }

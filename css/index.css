@@ -4,9 +4,10 @@
 
 .header {
     background-image: url(/img/background/bg-jumbotron-index.jpg);
-    min-height: 100vh; /* minimo tendra 100, pero si el contenido es mas grande crecera lo suficiente*/
+    min-height: 100vh;
+    /* minimo tendra 100, pero si el contenido es mas grande crecera lo suficiente*/
     background-position: center;
-    background-size:cover ;
+    background-size: cover;
 }
 
 .header section {
@@ -22,18 +23,24 @@
 }
 
 .header button {
-    border-color: #adb5bd;
-    
+    border-color: #bdadad;
+
 }
-.header section:hover form button i{
+
+.header section:hover form button i {
     color: #000000;
 }
+
 .header section:hover ul li form button {
     color: rgb(0, 0, 0) !important;
 }
 
 .btncolor:hover {
     color: #000000 !important;
+}
+
+.cajitablanca::placeholder {
+    font-weight: bold;
 }
 
 /*Tarjetas Catalogo*/
@@ -78,4 +85,28 @@
 
 .colorig {
     color: #ac2bac;
+}
+
+/*Footer efectos hover*/
+.colorfb:hover {
+    color: #0065fd;
+}
+
+.colortw:hover {
+    color: #4aa9f6;
+}
+
+.colorig:hover {
+    color: #ed38ed;
+}
+
+/*Responsive*/
+
+@media screen and (min-width: 600px) {
+    .header {
+        min-height: 80vh;
+        /* minimo tendra 100, pero si el contenido es mas grande crecera lo suficiente*/
+        background-position: left;
+
+    }
 }

@@ -33,3 +33,16 @@
 .colorig {
     color: #ac2bac;
 }
+
+/*Footer efectos hover*/
+.colorfb:hover {
+    color: #0065fd;
+}
+
+.colortw:hover {
+    color: #4aa9f6;
+}
+
+.colorig:hover {
+    color: #ed38ed;
+}
